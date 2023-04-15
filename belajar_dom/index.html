@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <body>
+      <div class="container">
+        <div class="title" id="title_list">List Olahraga</div>
+        <div class="container_olahraga">
+          <ul id="list_olahraga">
+            <li>Sepak Bola</li>
+            <li>Badminton</li>
+          </ul>
+        </div>
+        <div>
+          <button id="btn_ubah">Ubah Judul</button>
+          <button id="btn_ubah_warna" onclick="onUbahWarna()">
+            Ubah Warna Judul
+          </button>
+
+          <button id="btn_ubah_bg_warna" onclick="onUbahBackgroundWarna()">
+            Ubah Background Judul
+          </button>
+        </div>
+
+        <div>
+          <h1 style="margin-top: 20px">Profile</h1>
+          <div>
+            <div>Nama :</div>
+            <div id="value_nama"></div>
+          </div>
+        </div>
+      </div>
+    </body>
+  </head>
+</html>
+<style>
+  #title_list {
+    background-color: red;
+  }
+</style>
+<script src="./index.js"></script>
